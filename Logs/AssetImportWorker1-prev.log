@@ -1,0 +1,601 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.38f1 (c5d5a7410213) revision 12965287'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 32607 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2022.3.38f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/rdlan/Zombitch
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+56557
+Successfully changed project path to: C:/Users/rdlan/Zombitch
+C:/Users/rdlan/Zombitch
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [31048]  Target information:
+
+Player connection [31048]  * "[IP] 11.38.170.119 [Port] 0 [Flags] 2 [Guid] 3721649608 [EditorId] 3721649608 [Version] 1048832 [Id] WindowsEditor(7,DaPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [31048] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [31048] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+Refreshing native plugins compatible for Editor in 4.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.38f1 (c5d5a7410213)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.3.38f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/rdlan/Zombitch/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 (ID=0x2882)
+    Vendor:   NVIDIA
+    VRAM:     7957 MB
+    Driver:   32.0.15.7216
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2022.3.38f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2022.3.38f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2022.3.38f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56680
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2022.3.38f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003045 seconds.
+- Loaded All Assemblies, in  0.208 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.156 seconds
+Domain Reload Profiling: 363ms
+	BeginReloadAssembly (63ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (87ms)
+		LoadAssemblies (62ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (86ms)
+			TypeCache.Refresh (85ms)
+				TypeCache.ScanAssembly (77ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (156ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (122ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (84ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.369 seconds
+Refreshing native plugins compatible for Editor in 2.24 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.370 seconds
+Domain Reload Profiling: 738ms
+	BeginReloadAssembly (86ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (12ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (233ms)
+		LoadAssemblies (175ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (109ms)
+			TypeCache.Refresh (95ms)
+				TypeCache.ScanAssembly (86ms)
+			ScanForSourceGeneratedMonoScriptInfo (9ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (370ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (284ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (35ms)
+			ProcessInitializeOnLoadAttributes (227ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 3.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3513 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (58.3 KB). Loaded Objects now: 3976.
+Memory consumption went from 132.9 MB to 132.9 MB.
+Total: 2.862300 ms (FindLiveObjects: 0.272200 ms CreateObjectMapping: 0.087700 ms MarkObjects: 2.405600 ms  DeleteObjects: 0.096000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 520680.991075 seconds.
+  path: Assets/Weapons/Aligned Games/Polygonal Modern Weapons Collection 1 Asset Package
+  artifactKey: Guid(a6c8cd64cff0a8047b667dbccc2dc472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/Aligned Games/Polygonal Modern Weapons Collection 1 Asset Package using Guid(a6c8cd64cff0a8047b667dbccc2dc472) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '6b3743106174cf658845141dbf9c3954') in 0.005553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 19.686598 seconds.
+  path: Assets/Weapons/Aligned Games/Polygonal Modern Weapons Collection 1 Asset Package/Materials/atlass_1_2.mat
+  artifactKey: Guid(7d60f5fb9c0a45e408b12ef1cce8ec0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/Aligned Games/Polygonal Modern Weapons Collection 1 Asset Package/Materials/atlass_1_2.mat using Guid(7d60f5fb9c0a45e408b12ef1cce8ec0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'e6e006ff0103ca15c3e99430d90d4e13') in 0.088049 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Weapons/Aligned Games/Polygonal Modern Weapons Collection 1 Asset Package/Materials/atlass_1_3.mat
+  artifactKey: Guid(d5f1b57b28f6e954191330b9ba92aaa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/Aligned Games/Polygonal Modern Weapons Collection 1 Asset Package/Materials/atlass_1_3.mat using Guid(d5f1b57b28f6e954191330b9ba92aaa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'caa3ef56e4d74e76e90e97fc0580058c') in 0.008314 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Weapons/Aligned Games/Polygonal Modern Weapons Collection 1 Asset Package/Materials/atlass_1_4.mat
+  artifactKey: Guid(48f01cbc0668eed4c8e6738a335bb1c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/Aligned Games/Polygonal Modern Weapons Collection 1 Asset Package/Materials/atlass_1_4.mat using Guid(48f01cbc0668eed4c8e6738a335bb1c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '55588d2210ad76c03145a54595dc8940') in 0.012103 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 15.242347 seconds.
+  path: Assets/Weapons/Aligned Games/Polygonal Modern Weapons Collection 1 Asset Package/Models/Guns/MachineGuns/MachineGun1/machine_gun_1.prefab
+  artifactKey: Guid(c0bf9d1fd848d554abda1ef59eb498bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/Aligned Games/Polygonal Modern Weapons Collection 1 Asset Package/Models/Guns/MachineGuns/MachineGun1/machine_gun_1.prefab using Guid(c0bf9d1fd848d554abda1ef59eb498bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '0fbe3bc700098dc61c1d4c34cf45ca8e') in 0.023298 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 12.640238 seconds.
+  path: Assets/Weapons/Aligned Games/Polygonal Modern Weapons Collection 1 Asset Package/Models/Guns/MachineGuns/MachineGun2/machine_gun_2.prefab
+  artifactKey: Guid(5c7625153790cd048b9fbf5d5f837e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/Aligned Games/Polygonal Modern Weapons Collection 1 Asset Package/Models/Guns/MachineGuns/MachineGun2/machine_gun_2.prefab using Guid(5c7625153790cd048b9fbf5d5f837e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'b969d3a06d96bf419fde69de24def89a') in 0.012238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 7.157189 seconds.
+  path: Assets/Weapons/Aligned Games/Polygonal Modern Weapons Collection 1 Asset Package/Models/Guns/MachineGuns/MachineGun3/machine_gun_3.prefab
+  artifactKey: Guid(4541b36a026a86a4c8fabb973f66f142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/Aligned Games/Polygonal Modern Weapons Collection 1 Asset Package/Models/Guns/MachineGuns/MachineGun3/machine_gun_3.prefab using Guid(4541b36a026a86a4c8fabb973f66f142) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '7eb13652e2e73a68eb26cd4f8738e24e') in 0.012750 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 4.894120 seconds.
+  path: Assets/Weapons/Aligned Games/Polygonal Modern Weapons Collection 1 Asset Package/Models/Guns/MachineGuns/MachineGun4/machine_gun_4.prefab
+  artifactKey: Guid(fea1566d87ea59143812144b7c80b26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/Aligned Games/Polygonal Modern Weapons Collection 1 Asset Package/Models/Guns/MachineGuns/MachineGun4/machine_gun_4.prefab using Guid(fea1566d87ea59143812144b7c80b26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '1468bb708a1469b775cc5a35897a5b87') in 0.009062 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 6.557957 seconds.
+  path: Assets/Weapons/Aligned Games/Polygonal Modern Weapons Collection 1 Asset Package/Models/Guns/MachineGuns/MachineGun5/machine_gun_5.prefab
+  artifactKey: Guid(f31712436c7e64f4983818b3799e4fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/Aligned Games/Polygonal Modern Weapons Collection 1 Asset Package/Models/Guns/MachineGuns/MachineGun5/machine_gun_5.prefab using Guid(f31712436c7e64f4983818b3799e4fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '9bf2f615bb313e7b427957eb5d94a96b') in 0.008909 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 7.214087 seconds.
+  path: Assets/Weapons/Aligned Games/Polygonal Modern Weapons Collection 1 Asset Package/Models/Guns/MachineGuns/MachineGun6/machine_gun_6.prefab
+  artifactKey: Guid(c9dff1f04b7110b44886f72fedd7922b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/Aligned Games/Polygonal Modern Weapons Collection 1 Asset Package/Models/Guns/MachineGuns/MachineGun6/machine_gun_6.prefab using Guid(c9dff1f04b7110b44886f72fedd7922b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'ba96053c0126fec970c5dac60e0d7254') in 0.009544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 5.441185 seconds.
+  path: Assets/Weapons/Aligned Games/Polygonal Modern Weapons Collection 1 Asset Package/Models/Guns/MachineGuns/MachineGun7/machine_gun_7.prefab
+  artifactKey: Guid(1f9dbd24bac74a849b2da03e20590731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/Aligned Games/Polygonal Modern Weapons Collection 1 Asset Package/Models/Guns/MachineGuns/MachineGun7/machine_gun_7.prefab using Guid(1f9dbd24bac74a849b2da03e20590731) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '15c00a3399a45f2ab978f7a1664165f1') in 0.008517 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 10.366744 seconds.
+  path: Assets/Weapons/Aligned Games/Polygonal Modern Weapons Collection 1 Asset Package/Models/Guns/Pistols/Pistol1/pistol_1.prefab
+  artifactKey: Guid(b8472c75b2bc2ee4b98e87869dace24f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/Aligned Games/Polygonal Modern Weapons Collection 1 Asset Package/Models/Guns/Pistols/Pistol1/pistol_1.prefab using Guid(b8472c75b2bc2ee4b98e87869dace24f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '2cfb2a206958f68ba16ede876047bde2') in 0.013869 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 4.706960 seconds.
+  path: Assets/Weapons/Aligned Games/Polygonal Modern Weapons Collection 1 Asset Package/Models/Guns/Pistols/Pistol2/pistol_2.prefab
+  artifactKey: Guid(1c38d01b37b46554786a8da9ffb9e896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/Aligned Games/Polygonal Modern Weapons Collection 1 Asset Package/Models/Guns/Pistols/Pistol2/pistol_2.prefab using Guid(1c38d01b37b46554786a8da9ffb9e896) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '5abd20e661760c7e8f21fc082babc3e3') in 0.012351 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 4.418419 seconds.
+  path: Assets/Weapons/Aligned Games/Polygonal Modern Weapons Collection 1 Asset Package/Models/Guns/Pistols/Pistol3/pistol_3.prefab
+  artifactKey: Guid(b8a89d433330f774c92de926e1a1e20e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/Aligned Games/Polygonal Modern Weapons Collection 1 Asset Package/Models/Guns/Pistols/Pistol3/pistol_3.prefab using Guid(b8a89d433330f774c92de926e1a1e20e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '6c8c9c34beac89fdc70b9b8b85b24808') in 0.012930 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 5.694988 seconds.
+  path: Assets/Weapons/Aligned Games/Polygonal Modern Weapons Collection 1 Asset Package/Models/Guns/Rifles/Rifle1/rifle_1.prefab
+  artifactKey: Guid(8691a0e31f378024ca505f62cfa9de28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/Aligned Games/Polygonal Modern Weapons Collection 1 Asset Package/Models/Guns/Rifles/Rifle1/rifle_1.prefab using Guid(8691a0e31f378024ca505f62cfa9de28) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '1a0fb67fa2f37cda780aead962156604') in 0.014160 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 4.678717 seconds.
+  path: Assets/Weapons/Aligned Games/Polygonal Modern Weapons Collection 1 Asset Package/Models/Guns/Rifles/Rifle2/rifle_2.prefab
+  artifactKey: Guid(59679f1f02e172b4f883dbd1b69994b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/Aligned Games/Polygonal Modern Weapons Collection 1 Asset Package/Models/Guns/Rifles/Rifle2/rifle_2.prefab using Guid(59679f1f02e172b4f883dbd1b69994b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'f0c7f1aefa74b98957ad1af51693d5e4') in 0.014231 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 4.347573 seconds.
+  path: Assets/Weapons/Aligned Games/Polygonal Modern Weapons Collection 1 Asset Package/Models/Guns/Rifles/Rifle3/rifle_3.prefab
+  artifactKey: Guid(24aaccf5aff892e4f9a992f2dfd152eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/Aligned Games/Polygonal Modern Weapons Collection 1 Asset Package/Models/Guns/Rifles/Rifle3/rifle_3.prefab using Guid(24aaccf5aff892e4f9a992f2dfd152eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '2030b7c70c3fc355a9d44e0dc7b84e41') in 0.013473 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 9.317285 seconds.
+  path: Assets/Weapons/Aligned Games/Polygonal Modern Weapons Collection 1 Asset Package/Models/Guns/RocketLaunchers/RocketLauncher1/rocket_launcher_1.prefab
+  artifactKey: Guid(28cac15429ba5ab44be0bd722c6a8e1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/Aligned Games/Polygonal Modern Weapons Collection 1 Asset Package/Models/Guns/RocketLaunchers/RocketLauncher1/rocket_launcher_1.prefab using Guid(28cac15429ba5ab44be0bd722c6a8e1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '5f623123ae3dedc4ddf848e4a8e2e3ae') in 0.013003 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 7.191744 seconds.
+  path: Assets/Weapons/Aligned Games/Polygonal Modern Weapons Collection 1 Asset Package/Models/Guns/Shotguns/Shotgun1/shotgun_1.prefab
+  artifactKey: Guid(b2ab14655afc51948a35b9a060996945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/Aligned Games/Polygonal Modern Weapons Collection 1 Asset Package/Models/Guns/Shotguns/Shotgun1/shotgun_1.prefab using Guid(b2ab14655afc51948a35b9a060996945) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '13250c48fd51db9ba49e7fdb4ca2f335') in 0.014272 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 4.886440 seconds.
+  path: Assets/Weapons/Aligned Games/Polygonal Modern Weapons Collection 1 Asset Package/Models/Guns/Shotguns/Shotgun2/shotgun_2.prefab
+  artifactKey: Guid(35dabb9981038864a8e9ac66b7f61773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/Aligned Games/Polygonal Modern Weapons Collection 1 Asset Package/Models/Guns/Shotguns/Shotgun2/shotgun_2.prefab using Guid(35dabb9981038864a8e9ac66b7f61773) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'c8c60fbd2f3985046407bbcb6b492cf8') in 0.012844 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 3.956449 seconds.
+  path: Assets/Weapons/Aligned Games/Polygonal Modern Weapons Collection 1 Asset Package/Models/Guns/Shotguns/Shotgun3/shotgun_3.prefab
+  artifactKey: Guid(01d77fd69396c614ea4a371d26316452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/Aligned Games/Polygonal Modern Weapons Collection 1 Asset Package/Models/Guns/Shotguns/Shotgun3/shotgun_3.prefab using Guid(01d77fd69396c614ea4a371d26316452) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'b2151b077fa4bcee6e9c418765b6a9d2') in 0.008512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 6.336590 seconds.
+  path: Assets/Weapons/Aligned Games/Polygonal Modern Weapons Collection 1 Asset Package/Models/Guns/SubmachineGuns/SubmachineGun1/submachine_gun_1.prefab
+  artifactKey: Guid(d0070231856cedb4e90d4bf00fcd703a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/Aligned Games/Polygonal Modern Weapons Collection 1 Asset Package/Models/Guns/SubmachineGuns/SubmachineGun1/submachine_gun_1.prefab using Guid(d0070231856cedb4e90d4bf00fcd703a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '6d7c8634363317a182f6465f954a378d') in 0.013180 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 8.760934 seconds.
+  path: Assets/Weapons/Aligned Games/Polygonal Modern Weapons Collection 1 Asset Package/Models/Guns/SubmachineGuns/SubmachineGun2/submachine_gun_2.prefab
+  artifactKey: Guid(f54bd3895b31d6a4a9dc6a5256811265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/Aligned Games/Polygonal Modern Weapons Collection 1 Asset Package/Models/Guns/SubmachineGuns/SubmachineGun2/submachine_gun_2.prefab using Guid(f54bd3895b31d6a4a9dc6a5256811265) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'add9f3ece522ca50d4e32661532a8509') in 0.009176 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 5.664891 seconds.
+  path: Assets/Weapons/Aligned Games/Polygonal Modern Weapons Collection 1 Asset Package/Models/Guns/SubmachineGuns/SubmachineGun4/submachine_gun_4.prefab
+  artifactKey: Guid(fa6964db2f282044fa32b6ffb70b41b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/Aligned Games/Polygonal Modern Weapons Collection 1 Asset Package/Models/Guns/SubmachineGuns/SubmachineGun4/submachine_gun_4.prefab using Guid(fa6964db2f282044fa32b6ffb70b41b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'c3d84f4187c4511c5cb513b7403b5d9c') in 0.012270 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 6.027316 seconds.
+  path: Assets/Weapons/Aligned Games/Polygonal Modern Weapons Collection 1 Asset Package/Models/Guns/SubmachineGuns/SubmachineGun5/submachine_gun_5.prefab
+  artifactKey: Guid(9def538bcb02bdd4d9dadde6c5062f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/Aligned Games/Polygonal Modern Weapons Collection 1 Asset Package/Models/Guns/SubmachineGuns/SubmachineGun5/submachine_gun_5.prefab using Guid(9def538bcb02bdd4d9dadde6c5062f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '76c82dd9c6b1cc00da80d9f4a6ba103f') in 0.010409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 10.649277 seconds.
+  path: Assets/Weapons/Aligned Games/Polygonal Modern Weapons Collection 1 Asset Package/Models/Guns/SubmachineGuns/SubmachineGun3/submachine_gun_3.prefab
+  artifactKey: Guid(dbd2130dfff2cd045a6ed40156731050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/Aligned Games/Polygonal Modern Weapons Collection 1 Asset Package/Models/Guns/SubmachineGuns/SubmachineGun3/submachine_gun_3.prefab using Guid(dbd2130dfff2cd045a6ed40156731050) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'cc19e46675b36521c5a2a9bd8fe2d58d') in 0.014491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 22.787858 seconds.
+  path: Assets/Weapons/Aligned Games/Polygonal Modern Weapons Collection 1 Asset Package/Models/Melee/Swords/Sword1/sword_1.prefab
+  artifactKey: Guid(be5bb5f9aecd33d47bab7cb9bb12f9bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/Aligned Games/Polygonal Modern Weapons Collection 1 Asset Package/Models/Melee/Swords/Sword1/sword_1.prefab using Guid(be5bb5f9aecd33d47bab7cb9bb12f9bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '8282aca0e623b88ed82d5e13bec01f3e') in 0.008990 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 21.589870 seconds.
+  path: Assets/Weapons/Aligned Games/Polygonal Modern Weapons Collection 1 Asset Package/Models/Explosives/Explosive1/explosive_1.prefab
+  artifactKey: Guid(3060300fea53e324bade33aaaeef7e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/Aligned Games/Polygonal Modern Weapons Collection 1 Asset Package/Models/Explosives/Explosive1/explosive_1.prefab using Guid(3060300fea53e324bade33aaaeef7e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '6de334732af20ea3321cc60915c75972') in 0.021417 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 7.364107 seconds.
+  path: Assets/Weapons/Aligned Games/Polygonal Modern Weapons Collection 1 Asset Package/Models/Explosives/Explosive2/explosive_2.prefab
+  artifactKey: Guid(0e55902695104ec419d9e5dd2c7be8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/Aligned Games/Polygonal Modern Weapons Collection 1 Asset Package/Models/Explosives/Explosive2/explosive_2.prefab using Guid(0e55902695104ec419d9e5dd2c7be8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'c8c5c043c4acadaf58cf9af79f752634') in 0.013234 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 2.521411 seconds.
+  path: Assets/Weapons/Aligned Games/Polygonal Modern Weapons Collection 1 Asset Package/Models/Explosives/Explosive3/explosive_3.prefab
+  artifactKey: Guid(f2c1a48a342718c4eb642a5595ac2167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/Aligned Games/Polygonal Modern Weapons Collection 1 Asset Package/Models/Explosives/Explosive3/explosive_3.prefab using Guid(f2c1a48a342718c4eb642a5595ac2167) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'bf132f6a8deec8ff23cede4e9db03fa2') in 0.012811 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 2.088744 seconds.
+  path: Assets/Weapons/Aligned Games/Polygonal Modern Weapons Collection 1 Asset Package/Models/Explosives/Explosive4/explosive_4.prefab
+  artifactKey: Guid(966ef8823d0823942aec7d53c7817f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/Aligned Games/Polygonal Modern Weapons Collection 1 Asset Package/Models/Explosives/Explosive4/explosive_4.prefab using Guid(966ef8823d0823942aec7d53c7817f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'c5cde3960074aacc0a8a096da1733296') in 0.011352 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 12.159076 seconds.
+  path: Assets/Weapons/ithappy/Weapons_FREE/Prefabs/baseball_bat_001.prefab
+  artifactKey: Guid(64759d2bfa2981d4b80548269cac537c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/ithappy/Weapons_FREE/Prefabs/baseball_bat_001.prefab using Guid(64759d2bfa2981d4b80548269cac537c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '606df7b6846c23c996fb62a8cc4ed95e') in 0.013611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Weapons/ithappy/Weapons_FREE/Prefabs/pistol_001.prefab
+  artifactKey: Guid(41236ddb97b001d499cadd3503c086dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/ithappy/Weapons_FREE/Prefabs/pistol_001.prefab using Guid(41236ddb97b001d499cadd3503c086dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '954dc37eab326428fa1cefd47901fbca') in 0.018038 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 38
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Weapons/ithappy/Weapons_FREE/Prefabs/shotgun_001.prefab
+  artifactKey: Guid(f7a69565ab2ff984789da792b0969f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/ithappy/Weapons_FREE/Prefabs/shotgun_001.prefab using Guid(f7a69565ab2ff984789da792b0969f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'f0a232463831dde993bf646a50bb5ef5') in 0.019041 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 38
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Weapons/ithappy/Weapons_FREE/Prefabs/shotgun_handguard_001.prefab
+  artifactKey: Guid(91917936023d8d44698236efd68648ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/ithappy/Weapons_FREE/Prefabs/shotgun_handguard_001.prefab using Guid(91917936023d8d44698236efd68648ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '7a2b899d11a7ea8bf771e8a3452c15ae') in 0.009641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Weapons/ithappy/Weapons_FREE/Prefabs/pistol_drum_001.prefab
+  artifactKey: Guid(a83fe96ad887a7446bedc24c7c64a9bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/ithappy/Weapons_FREE/Prefabs/pistol_drum_001.prefab using Guid(a83fe96ad887a7446bedc24c7c64a9bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'd9b3256370357745a7edb41f5e57582f') in 0.009312 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Weapons/ithappy/Weapons_FREE/Prefabs/rifle_magazine_001.prefab
+  artifactKey: Guid(f6311a265ebfe094b84c34021d63e254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/ithappy/Weapons_FREE/Prefabs/rifle_magazine_001.prefab using Guid(f6311a265ebfe094b84c34021d63e254) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '909d6397df9889ba216a0777ce244f81') in 0.009498 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 8.198723 seconds.
+  path: Assets/Weapons/ithappy/Weapons_FREE/Meshes/hockey_stick_001.fbx
+  artifactKey: Guid(48aa8e14e5e9094409001d63953a788e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/ithappy/Weapons_FREE/Meshes/hockey_stick_001.fbx using Guid(48aa8e14e5e9094409001d63953a788e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '01a376e6fd54740f59a0c6842217f3ea') in 0.036125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Weapons/ithappy/Weapons_FREE/Meshes/shotgun_handguard_001.fbx
+  artifactKey: Guid(9685084b86c8e6b4caab6f907f7dda4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/ithappy/Weapons_FREE/Meshes/shotgun_handguard_001.fbx using Guid(9685084b86c8e6b4caab6f907f7dda4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'e9cab7ea06b646207d43a478c09a3102') in 0.016072 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Weapons/ithappy/Weapons_FREE/Meshes/pistol_001.fbx
+  artifactKey: Guid(6b87b95460eac2d40b200a355f6444a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/ithappy/Weapons_FREE/Meshes/pistol_001.fbx using Guid(6b87b95460eac2d40b200a355f6444a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '60cf5471c5d48b205d0c8f1ff203ec3a') in 0.016973 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Weapons/ithappy/Weapons_FREE/Meshes/rifle_001.fbx
+  artifactKey: Guid(c0d77e676f3f0ef4ebbfb067fe81ae27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/ithappy/Weapons_FREE/Meshes/rifle_001.fbx using Guid(c0d77e676f3f0ef4ebbfb067fe81ae27) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '90e1741a5471d3d0451132437f02fc75') in 0.016217 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

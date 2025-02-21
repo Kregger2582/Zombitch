@@ -1,0 +1,645 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.38f1 (c5d5a7410213) revision 12965287'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 32607 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2022.3.38f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/rdlan/Zombitch
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+56557
+Successfully changed project path to: C:/Users/rdlan/Zombitch
+C:/Users/rdlan/Zombitch
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [10616]  Target information:
+
+Player connection [10616]  * "[IP] 11.38.170.119 [Port] 0 [Flags] 2 [Guid] 420381712 [EditorId] 420381712 [Version] 1048832 [Id] WindowsEditor(7,DaPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [10616] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [10616] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+Refreshing native plugins compatible for Editor in 5.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.38f1 (c5d5a7410213)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.3.38f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/rdlan/Zombitch/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 (ID=0x2882)
+    Vendor:   NVIDIA
+    VRAM:     7957 MB
+    Driver:   32.0.15.7216
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2022.3.38f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2022.3.38f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2022.3.38f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56572
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2022.3.38f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003610 seconds.
+- Loaded All Assemblies, in  0.201 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.150 seconds
+Domain Reload Profiling: 350ms
+	BeginReloadAssembly (62ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (78ms)
+		LoadAssemblies (61ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (77ms)
+			TypeCache.Refresh (76ms)
+				TypeCache.ScanAssembly (68ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (151ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (118ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (82ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.358 seconds
+Refreshing native plugins compatible for Editor in 2.52 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.361 seconds
+Domain Reload Profiling: 718ms
+	BeginReloadAssembly (81ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (12ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (5ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (227ms)
+		LoadAssemblies (171ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (104ms)
+			TypeCache.Refresh (90ms)
+				TypeCache.ScanAssembly (81ms)
+			ScanForSourceGeneratedMonoScriptInfo (9ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (362ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (278ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (36ms)
+			ProcessInitializeOnLoadAttributes (220ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 2.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3513 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (58.9 KB). Loaded Objects now: 3976.
+Memory consumption went from 133.0 MB to 132.9 MB.
+Total: 2.145100 ms (FindLiveObjects: 0.176600 ms CreateObjectMapping: 0.044700 ms MarkObjects: 1.830400 ms  DeleteObjects: 0.092800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 520948.098357 seconds.
+  path: Assets/Weapons/ithappy/Weapons_FREE/Textures
+  artifactKey: Guid(1569bb948e6a84c408d13e3e16f5f15d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/ithappy/Weapons_FREE/Textures using Guid(1569bb948e6a84c408d13e3e16f5f15d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '2271f2d597655b1b57fb565df8f9b1ec') in 0.001889 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.948910 seconds.
+  path: Assets/Weapons/ithappy/Weapons_FREE/Textures/Texture.png
+  artifactKey: Guid(e40c32d558488234680b9c487a21c5f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/ithappy/Weapons_FREE/Textures/Texture.png using Guid(e40c32d558488234680b9c487a21c5f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '2ae14db31103f30130f000bbfe75e638') in 0.037074 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 16.046571 seconds.
+  path: Assets/Weapons/ithappy/Weapons_FREE/Render_Pipeline_Convert
+  artifactKey: Guid(abb4001049086b546ac4e06a48d64d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/ithappy/Weapons_FREE/Render_Pipeline_Convert using Guid(abb4001049086b546ac4e06a48d64d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '66de3fa4ecdce3afb824abca975b661a') in 0.000582 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 67.229898 seconds.
+  path: Assets/Weapons/NanoPlasmaProductions
+  artifactKey: Guid(66b1294b83ce36c4483971a687893dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/NanoPlasmaProductions using Guid(66b1294b83ce36c4483971a687893dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'f5c687ca64d9d6ea3b4b3a4a2ce99e2a') in 0.000434 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.179088 seconds.
+  path: Assets/Weapons/NanoPlasmaProductions/ElectricitySword2
+  artifactKey: Guid(f620f174e5b7c61479891dc9bfc09582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/NanoPlasmaProductions/ElectricitySword2 using Guid(f620f174e5b7c61479891dc9bfc09582) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'f7de03357f1f0602b83d869d04fb4dec') in 0.000422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.974318 seconds.
+  path: Assets/Weapons/NanoPlasmaProductions/ElectricitySword2/Prefabs
+  artifactKey: Guid(8c7bd19dd9acbd346bdc353182251fe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/NanoPlasmaProductions/ElectricitySword2/Prefabs using Guid(8c7bd19dd9acbd346bdc353182251fe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'ed87f634125630b2e982168ea85e94b6') in 0.000703 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.106257 seconds.
+  path: Assets/Weapons/NanoPlasmaProductions/ElectricitySword2/Prefabs/ElectricitySword2.prefab
+  artifactKey: Guid(a9ea8e71afba02a4e83a2a3212d25979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/NanoPlasmaProductions/ElectricitySword2/Prefabs/ElectricitySword2.prefab using Guid(a9ea8e71afba02a4e83a2a3212d25979) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '72398cc05a5fee0bd0a47020c5f2b71c') in 0.133379 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 58
+========================================================================
+Received Import Request.
+  Time since last request: 3.415880 seconds.
+  path: Assets/Weapons/NanoPlasmaProductions/ElectricitySword2/Meshes
+  artifactKey: Guid(64d212aa550b4674b8143ed7a514b9f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/NanoPlasmaProductions/ElectricitySword2/Meshes using Guid(64d212aa550b4674b8143ed7a514b9f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'db115a6dbc81812b1ee58f7f5a89f07c') in 0.000490 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.101307 seconds.
+  path: Assets/Weapons/NanoPlasmaProductions/ElectricitySword2/Meshes/ElectricitySword2.fbx
+  artifactKey: Guid(9c815486f5d61084390dee830f7e3fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/NanoPlasmaProductions/ElectricitySword2/Meshes/ElectricitySword2.fbx using Guid(9c815486f5d61084390dee830f7e3fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'a3e2277b5480a3ccca45849dd28a9791') in 0.065009 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 56
+========================================================================
+Received Import Request.
+  Time since last request: 5.462872 seconds.
+  path: Assets/Weapons/NanoPlasmaProductions/ElectricitySword2/Materials
+  artifactKey: Guid(3c14b1ffc8b50f645952521982351b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/NanoPlasmaProductions/ElectricitySword2/Materials using Guid(3c14b1ffc8b50f645952521982351b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'f998e6fec27b14797ec85c6ca72f7150') in 0.000496 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.273610 seconds.
+  path: Assets/Weapons/NanoPlasmaProductions/ElectricitySword2/Materials/HDRP_Materials
+  artifactKey: Guid(aa2f25e5bfc81f641af57da014add742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/NanoPlasmaProductions/ElectricitySword2/Materials/HDRP_Materials using Guid(aa2f25e5bfc81f641af57da014add742) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '0b4f9ac1775fbcb2daf6b1af124b13ef') in 0.000440 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.105834 seconds.
+  path: Assets/Weapons/NanoPlasmaProductions/ElectricitySword2/Materials/HDRP_Materials/ElectricitySword2_Battery_HDRP.mat
+  artifactKey: Guid(cc72411162b1ec64b8fef4c0fcb33411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/NanoPlasmaProductions/ElectricitySword2/Materials/HDRP_Materials/ElectricitySword2_Battery_HDRP.mat using Guid(cc72411162b1ec64b8fef4c0fcb33411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'bc2c4477a2e10c585a6bad431c6360b6') in 0.055666 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 3.205855 seconds.
+  path: Assets/Weapons/NanoPlasmaProductions/ElectricitySword2/Materials/URP_Materials
+  artifactKey: Guid(1b6aea49cc113414aac05a9cde08fb17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/NanoPlasmaProductions/ElectricitySword2/Materials/URP_Materials using Guid(1b6aea49cc113414aac05a9cde08fb17) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'a36b9dcd0fa7db681042f24340632e6c') in 0.000468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.096058 seconds.
+  path: Assets/Weapons/NanoPlasmaProductions/ElectricitySword2/Materials/URP_Materials/ElectricitySword2_Battery_URP.mat
+  artifactKey: Guid(b75a50863b18d284295abad48e9c066b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/NanoPlasmaProductions/ElectricitySword2/Materials/URP_Materials/ElectricitySword2_Battery_URP.mat using Guid(b75a50863b18d284295abad48e9c066b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '7fc33c8524d403633725e5c5d18d83f0') in 0.018647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 3.266180 seconds.
+  path: Assets/Weapons/NanoPlasmaProductions/ElectricitySword2/Textures
+  artifactKey: Guid(970854d7c500a4747a01c0afe18c2771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/NanoPlasmaProductions/ElectricitySword2/Textures using Guid(970854d7c500a4747a01c0afe18c2771) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'fe6225f30b9f2cba63615bda13cd4b7a') in 0.001425 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.120090 seconds.
+  path: Assets/Weapons/NanoPlasmaProductions/ElectricitySword2/Textures/HDRP_Textures
+  artifactKey: Guid(560c96d479eeb054b99894580cb243bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/NanoPlasmaProductions/ElectricitySword2/Textures/HDRP_Textures using Guid(560c96d479eeb054b99894580cb243bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '4decb9717b31488d101ff510a61bb6ae') in 0.001302 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 71.724094 seconds.
+  path: Assets/Weapons/SCI-FI Toxin Guns
+  artifactKey: Guid(ac7b3f8cd6f60fc41a31afead4811120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/SCI-FI Toxin Guns using Guid(ac7b3f8cd6f60fc41a31afead4811120) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '1c866c95cd6a0e7f1e02d98936b1798a') in 0.000431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.814934 seconds.
+  path: Assets/Weapons/SCI-FI Toxin Guns/prefabs
+  artifactKey: Guid(04c2699da4afbdc4c8260e965a157f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/SCI-FI Toxin Guns/prefabs using Guid(04c2699da4afbdc4c8260e965a157f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'aa3b883b326a83368b6f35c9d0450a17') in 0.000411 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.123635 seconds.
+  path: Assets/Weapons/SCI-FI Toxin Guns/prefabs/poisongunbase2.prefab
+  artifactKey: Guid(3a89b4465e9249541be477d50499e9c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/SCI-FI Toxin Guns/prefabs/poisongunbase2.prefab using Guid(3a89b4465e9249541be477d50499e9c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '5cb153eedb98935434f4fd47bcfe65ef') in 0.019829 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 26.139517 seconds.
+  path: Assets/Weapons/NanoPlasmaProductions/ElectricitySword2/Textures/ColorID_Texture
+  artifactKey: Guid(41ad3808e30f9c748a8739c6472bf64f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/NanoPlasmaProductions/ElectricitySword2/Textures/ColorID_Texture using Guid(41ad3808e30f9c748a8739c6472bf64f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '9fee103e0ff504b0898fc6ca00c1e2ea') in 0.000546 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.124897 seconds.
+  path: Assets/Weapons/NanoPlasmaProductions/ElectricitySword2/Textures/ColorID_Texture/ElectricitySword2_ColorID.png
+  artifactKey: Guid(f20fc58ef7877934c8856806526f862d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/NanoPlasmaProductions/ElectricitySword2/Textures/ColorID_Texture/ElectricitySword2_ColorID.png using Guid(f20fc58ef7877934c8856806526f862d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '78aad4f0beb0e018eca6b1c2d630adb2') in 0.028921 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 84.388499 seconds.
+  path: Assets/Weapons/NanoPlasmaProductions/ElectricitySword2/Demo scenes
+  artifactKey: Guid(a3ee14b7aa9473446b6e68862dc0a638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/NanoPlasmaProductions/ElectricitySword2/Demo scenes using Guid(a3ee14b7aa9473446b6e68862dc0a638) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'e165c4bc251e06de22666cbb45a06882') in 0.000596 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.116056 seconds.
+  path: Assets/Weapons/NanoPlasmaProductions/ElectricitySword2/Demo scenes/Skybox_Mat.mat
+  artifactKey: Guid(59bf68a6b7155be4ba42e43309ab70fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/NanoPlasmaProductions/ElectricitySword2/Demo scenes/Skybox_Mat.mat using Guid(59bf68a6b7155be4ba42e43309ab70fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '5dc8dba5407c758849b1cf5585298739') in 0.060185 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2.240135 seconds.
+  path: Assets/Weapons/NanoPlasmaProductions/ElectricitySword2/Documentation
+  artifactKey: Guid(c7418fff336c86742afedf7978dd38b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/NanoPlasmaProductions/ElectricitySword2/Documentation using Guid(c7418fff336c86742afedf7978dd38b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '9784b38bff711148ac5db06a1d0090e5') in 0.000440 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.966868 seconds.
+  path: Assets/Weapons/ThreeDragons/Long Sword
+  artifactKey: Guid(e23050027d757ad4e8a6e149e7fb584e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/ThreeDragons/Long Sword using Guid(e23050027d757ad4e8a6e149e7fb584e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'dc939f98493d087798e7dce5d934c399') in 0.000414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.635414 seconds.
+  path: Assets/Weapons/ThreeDragons/Long Sword/Model
+  artifactKey: Guid(d2a84bb909384ac42b0cf7aaf9dffc02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/ThreeDragons/Long Sword/Model using Guid(d2a84bb909384ac42b0cf7aaf9dffc02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '4d9eb97727fb0da12b8a008872d399b4') in 0.000422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.111820 seconds.
+  path: Assets/Weapons/ThreeDragons/Long Sword/Model/Long Sword.fbx
+  artifactKey: Guid(312dbf3f0c1813e49895ea2308045bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/ThreeDragons/Long Sword/Model/Long Sword.fbx using Guid(312dbf3f0c1813e49895ea2308045bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '85e08243920d79edd9cfe06f8df3ae09') in 0.038514 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 3.998707 seconds.
+  path: Assets/Weapons/ThreeDragons/Long Sword/Prefab
+  artifactKey: Guid(2e7f3e9e81b8511459f2ede5f634c8ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/ThreeDragons/Long Sword/Prefab using Guid(2e7f3e9e81b8511459f2ede5f634c8ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '8b0acb3fa96e274480e2b21597f0ac11') in 0.000497 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.117336 seconds.
+  path: Assets/Weapons/ThreeDragons/Long Sword/Prefab/Long Sword.prefab
+  artifactKey: Guid(b398b560b9d505d4ab34d65aa12ac84b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/ThreeDragons/Long Sword/Prefab/Long Sword.prefab using Guid(b398b560b9d505d4ab34d65aa12ac84b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'a402a300f53ce82a0fad28ed68fe9825') in 0.012315 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 2.103946 seconds.
+  path: Assets/Weapons/ThreeDragons/Long Sword/Sprites
+  artifactKey: Guid(445bec5b28cc776448b7138c352e7b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/ThreeDragons/Long Sword/Sprites using Guid(445bec5b28cc776448b7138c352e7b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '51547cfe34687b30d1c08212a11677dc') in 0.000476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.111531 seconds.
+  path: Assets/Weapons/ThreeDragons/Long Sword/Sprites/Long Sword Icon.png
+  artifactKey: Guid(c1060dd0d92440e4587e77f897259dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/ThreeDragons/Long Sword/Sprites/Long Sword Icon.png using Guid(c1060dd0d92440e4587e77f897259dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '999e410f63556feb15f0c75fe4b5b774') in 0.018665 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 11.778026 seconds.
+  path: Assets/Weapons/ThreeDragons/Long Sword/Textures
+  artifactKey: Guid(6ddf003a26ecb2a4fab294fcad8ba075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/ThreeDragons/Long Sword/Textures using Guid(6ddf003a26ecb2a4fab294fcad8ba075) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '6bd29c463216d633881471236d93e904') in 0.000605 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.128219 seconds.
+  path: Assets/Weapons/ThreeDragons/Long Sword/Textures/white_cliff_hdri.hdr
+  artifactKey: Guid(fc6072b039ee432498ada59a6fab5293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/ThreeDragons/Long Sword/Textures/white_cliff_hdri.hdr using Guid(fc6072b039ee432498ada59a6fab5293) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'c5bf441f29e864b83c82b26f81f99627') in 0.013972 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 40.300211 seconds.
+  path: Assets/Weapons/ThreeDragons/Long Sword/Textures/Long Sword
+  artifactKey: Guid(4880e139cfdd06948b47b6a1e61f676b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/ThreeDragons/Long Sword/Textures/Long Sword using Guid(4880e139cfdd06948b47b6a1e61f676b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '093e64d5479eaa83633390a1c38b70b9') in 0.002479 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.058719 seconds.
+  path: Assets/Weapons/ThreeDragons/Long Sword/Textures/Long Sword/Long Sword_color.png
+  artifactKey: Guid(c52ea5eed9677264d86bb43ef2ac72c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/ThreeDragons/Long Sword/Textures/Long Sword/Long Sword_color.png using Guid(c52ea5eed9677264d86bb43ef2ac72c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '3ff0433ca8ec9a186885955c9ad29c54') in 0.017258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Weapons/ThreeDragons/Long Sword/Textures/Long Sword/Long Sword_normal.png
+  artifactKey: Guid(a3e670a420fb9e14ca9823a903597077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/ThreeDragons/Long Sword/Textures/Long Sword/Long Sword_normal.png using Guid(a3e670a420fb9e14ca9823a903597077) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '33fca92e940f5b3dbad724f2e67db540') in 0.015020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 150.026698 seconds.
+  path: Assets/Weapons/SCI-FI Toxin Guns/textures
+  artifactKey: Guid(7ac7c2947dd7af745bc75ecf29ca296a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/SCI-FI Toxin Guns/textures using Guid(7ac7c2947dd7af745bc75ecf29ca296a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '53a3bb52fa5428962acf2bb8bf5093ee') in 0.000704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.847321 seconds.
+  path: Assets/Weapons/SCI-FI Toxin Guns/textures/gun1
+  artifactKey: Guid(b8ff0c6b45e60a2419f2f59e31afa119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/SCI-FI Toxin Guns/textures/gun1 using Guid(b8ff0c6b45e60a2419f2f59e31afa119) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'd84bcadd42af0c0f93bde1da5d2858e1') in 0.000415 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.087832 seconds.
+  path: Assets/Weapons/SCI-FI Toxin Guns/textures/gun1/New Material.mat
+  artifactKey: Guid(1e810969234eda3419d04e7e9c2c9ad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/SCI-FI Toxin Guns/textures/gun1/New Material.mat using Guid(1e810969234eda3419d04e7e9c2c9ad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '13b1fc90478cc6572db37671a08563f6') in 0.154851 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 73.923048 seconds.
+  path: Assets/Weapons/NanoPlasmaProductions/ElectricitySword2/Documentation/Documentation_ElectricitySword2.txt
+  artifactKey: Guid(8716fd4f735213e4986e38526829279d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/NanoPlasmaProductions/ElectricitySword2/Documentation/Documentation_ElectricitySword2.txt using Guid(8716fd4f735213e4986e38526829279d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '99d09079521f4a82bd03334ddc2710ca') in 0.000940 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 33.002704 seconds.
+  path: Assets/Weapons/NanoPlasmaProductions/ElectricitySword2/Shaders
+  artifactKey: Guid(2ad451131a452ba48b4e16f8bd2197c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/NanoPlasmaProductions/ElectricitySword2/Shaders using Guid(2ad451131a452ba48b4e16f8bd2197c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '29c2dcb914a1a964483ed200b6d5ae1a') in 0.000781 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.261 seconds
+Refreshing native plugins compatible for Editor in 2.03 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.573 seconds
+Domain Reload Profiling: 833ms
+	BeginReloadAssembly (94ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (124ms)
+		LoadAssemblies (163ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (573ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (276ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (40ms)
+			ProcessInitializeOnLoadAttributes (212ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 2.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3502 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (32.2 KB). Loaded Objects now: 4028.
+Memory consumption went from 135.3 MB to 135.3 MB.
+Total: 1.927700 ms (FindLiveObjects: 0.157500 ms CreateObjectMapping: 0.044500 ms MarkObjects: 1.690000 ms  DeleteObjects: 0.035200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
