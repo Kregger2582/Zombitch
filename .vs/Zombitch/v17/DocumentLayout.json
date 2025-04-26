@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\rdlan\\Zombitch\\",
+  "WorkspaceRootPath": "C:\\Users\\rdlan\\OneDrive\\Unity\\Zombitch\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9F9E1954-61CF-FCDC-AD27-627CC022144D}|Assembly-CSharp.csproj|c:\\users\\rdlan\\zombitch\\assets\\weapons\\nanoplasmaproductions\\electricitysword2\\documentation\\documentation_electricitysword2.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{9F9E1954-61CF-FCDC-AD27-627CC022144D}|Assembly-CSharp.csproj|solutionrelative:assets\\weapons\\nanoplasmaproductions\\electricitysword2\\documentation\\documentation_electricitysword2.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{712347DB-82AE-6E97-A8D9-84D9BDE36DB6}|Assembly-CSharp-Editor.csproj|c:\\users\\rdlan\\onedrive\\unity\\zombitch\\assets\\3d characters zombie city streets lowpoly pack - lite\\editor\\rateassetpopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{712347DB-82AE-6E97-A8D9-84D9BDE36DB6}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\3d characters zombie city streets lowpoly pack - lite\\editor\\rateassetpopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Documentation_ElectricitySword2.txt",
-              "DocumentMoniker": "C:\\Users\\rdlan\\Zombitch\\Assets\\Weapons\\NanoPlasmaProductions\\ElectricitySword2\\Documentation\\Documentation_ElectricitySword2.txt",
-              "RelativeDocumentMoniker": "Assets\\Weapons\\NanoPlasmaProductions\\ElectricitySword2\\Documentation\\Documentation_ElectricitySword2.txt",
-              "ToolTip": "C:\\Users\\rdlan\\Zombitch\\Assets\\Weapons\\NanoPlasmaProductions\\ElectricitySword2\\Documentation\\Documentation_ElectricitySword2.txt",
-              "RelativeToolTip": "Assets\\Weapons\\NanoPlasmaProductions\\ElectricitySword2\\Documentation\\Documentation_ElectricitySword2.txt",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-02-20T16:22:04.06Z",
+              "Title": "RateAssetPopup.cs",
+              "DocumentMoniker": "C:\\Users\\rdlan\\OneDrive\\Unity\\Zombitch\\Assets\\3D Characters Zombie City Streets Lowpoly Pack - Lite\\Editor\\RateAssetPopup.cs",
+              "RelativeDocumentMoniker": "Assets\\3D Characters Zombie City Streets Lowpoly Pack - Lite\\Editor\\RateAssetPopup.cs",
+              "ToolTip": "C:\\Users\\rdlan\\OneDrive\\Unity\\Zombitch\\Assets\\3D Characters Zombie City Streets Lowpoly Pack - Lite\\Editor\\RateAssetPopup.cs",
+              "RelativeToolTip": "Assets\\3D Characters Zombie City Streets Lowpoly Pack - Lite\\Editor\\RateAssetPopup.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T20:11:25.18Z",
               "EditorCaption": ""
             }
           ]
