@@ -15,7 +15,7 @@ C:/Users/rdlan/OneDrive/Unity/Zombe game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49437
+50309
 Successfully changed project path to: C:/Users/rdlan/OneDrive/Unity/Zombe game
 C:/Users/rdlan/OneDrive/Unity/Zombe game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,14 +49,14 @@ C:/Users/rdlan/OneDrive/Unity/Zombe game
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [27940]  Target information:
+Player connection [16560]  Target information:
 
-Player connection [27940]  * "[IP] 11.41.255.237 [Port] 0 [Flags] 2 [Guid] 1659182481 [EditorId] 1659182481 [Version] 1048832 [Id] WindowsEditor(7,DaPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [16560]  * "[IP] 11.41.255.242 [Port] 0 [Flags] 2 [Guid] 1414197368 [EditorId] 1414197368 [Version] 1048832 [Id] WindowsEditor(7,DaPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [27940] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [27940] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [16560] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [16560] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
-Refreshing native plugins compatible for Editor in 6.02 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 7.66 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.38f1 (c5d5a7410213)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.3.38f1/Editor/Data/Resources/UnitySubsystems
@@ -72,17 +72,17 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2022.3.38f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2022.3.38f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 2022.3.38f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56740
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56044
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2022.3.38f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003978 seconds.
-- Loaded All Assemblies, in  0.209 seconds
+Registered in 0.003318 seconds.
+- Loaded All Assemblies, in  0.196 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.164 seconds
-Domain Reload Profiling: 372ms
-	BeginReloadAssembly (64ms)
+- Finished resetting the current domain, in  0.153 seconds
+Domain Reload Profiling: 348ms
+	BeginReloadAssembly (62ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
@@ -90,26 +90,26 @@ Domain Reload Profiling: 372ms
 		CreateAndSetChildDomain (0ms)
 	RebuildCommonClasses (19ms)
 	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (34ms)
-	LoadAllAssembliesAndSetupDomain (85ms)
-		LoadAssemblies (63ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (76ms)
+		LoadAssemblies (61ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (84ms)
-			TypeCache.Refresh (82ms)
-				TypeCache.ScanAssembly (74ms)
+		AnalyzeDomain (75ms)
+			TypeCache.Refresh (74ms)
+				TypeCache.ScanAssembly (66ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (164ms)
+	FinalizeReload (153ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (122ms)
+		SetupLoadedEditorAssemblies (120ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (4ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (85ms)
-			ProcessInitializeOnLoadMethodAttributes (27ms)
+			ProcessInitializeOnLoadAttributes (83ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,51 +117,51 @@ Domain Reload Profiling: 372ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.385 seconds
-Refreshing native plugins compatible for Editor in 3.82 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.390 seconds
+Refreshing native plugins compatible for Editor in 3.17 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.400 seconds
-Domain Reload Profiling: 784ms
-	BeginReloadAssembly (86ms)
+- Finished resetting the current domain, in  0.389 seconds
+Domain Reload Profiling: 778ms
+	BeginReloadAssembly (93ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (12ms)
+		CreateAndSetChildDomain (16ms)
 	RebuildCommonClasses (19ms)
 	RebuildNativeTypeToScriptingClass (6ms)
 	initialDomainReloadingComplete (24ms)
-	LoadAllAssembliesAndSetupDomain (249ms)
-		LoadAssemblies (184ms)
+	LoadAllAssembliesAndSetupDomain (246ms)
+		LoadAssemblies (187ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (114ms)
-			TypeCache.Refresh (98ms)
-				TypeCache.ScanAssembly (88ms)
-			ScanForSourceGeneratedMonoScriptInfo (12ms)
+		AnalyzeDomain (112ms)
+			TypeCache.Refresh (97ms)
+				TypeCache.ScanAssembly (87ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
 			ResolveRequiredComponents (3ms)
-	FinalizeReload (401ms)
+	FinalizeReload (390ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (311ms)
+		SetupLoadedEditorAssemblies (297ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (3ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (42ms)
-			ProcessInitializeOnLoadAttributes (246ms)
-			ProcessInitializeOnLoadMethodAttributes (13ms)
+			BeforeProcessingInitializeOnLoad (39ms)
+			ProcessInitializeOnLoadAttributes (235ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
 			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 5.39 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 4.62 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4116 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 49 unused Assets / (125.7 KB). Loaded Objects now: 4578.
 Memory consumption went from 151.9 MB to 151.8 MB.
-Total: 2.302700 ms (FindLiveObjects: 0.172000 ms CreateObjectMapping: 0.056300 ms MarkObjects: 1.946200 ms  DeleteObjects: 0.127500 ms)
+Total: 3.013600 ms (FindLiveObjects: 0.213900 ms CreateObjectMapping: 0.089000 ms MarkObjects: 2.524000 ms  DeleteObjects: 0.185600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -179,99 +179,30 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 125305.563955 seconds.
-  path: Assets/LowPolyMetalRack
-  artifactKey: Guid(c0c7d14374740004ea94e0cdcee9e9b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyMetalRack using Guid(c0c7d14374740004ea94e0cdcee9e9b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
- -> (artifact id: 'cbb39b09b48a23598247c02aa13ab045') in 0.001801 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.382737 seconds.
-  path: Assets/LowPolyMetalRack/Prefabs
-  artifactKey: Guid(ce21d2686e5d5d4458bf1b85cad18bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyMetalRack/Prefabs using Guid(ce21d2686e5d5d4458bf1b85cad18bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
- -> (artifact id: '75afca2783b03b96c90b449e2dad47b9') in 0.000512 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.089016 seconds.
-  path: Assets/LowPolyMetalRack/Prefabs/BoardShelf A.prefab
-  artifactKey: Guid(f02daa782477b7948800b34fd6d04504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyMetalRack/Prefabs/BoardShelf A.prefab using Guid(f02daa782477b7948800b34fd6d04504) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+  Time since last request: 952.638136 seconds.
+  path: Assets/Misc/PolygonalMind/LowPolyOffice/Characters/mesh_office_f_accountant01.fbx
+  artifactKey: Guid(1d549942b3bfb7f43a1977dd6aa83a3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Misc/PolygonalMind/LowPolyOffice/Characters/mesh_office_f_accountant01.fbx using Guid(1d549942b3bfb7f43a1977dd6aa83a3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
- -> (artifact id: '9c65dc767ee954767d8f0432763d108c') in 0.075272 seconds
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '05dbdfa05d23dfa523a61dc978fd2cce') in 0.101359 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 74
+Number of asset objects unloaded after import = 58
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/LowPolyMetalRack/Prefabs/MetalRack_Shelf_Board.prefab
-  artifactKey: Guid(a43ed23400e84184da4519fc0c41ae9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyMetalRack/Prefabs/MetalRack_Shelf_Board.prefab using Guid(a43ed23400e84184da4519fc0c41ae9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Misc/PolygonalMind/LowPolyOffice/Characters/mesh_office_f_boss01.fbx
+  artifactKey: Guid(527746c3de683a746b700572020ce4c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Misc/PolygonalMind/LowPolyOffice/Characters/mesh_office_f_boss01.fbx using Guid(527746c3de683a746b700572020ce4c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
- -> (artifact id: 'ea05d095e216a4782fe4c34523cd3a97') in 0.014890 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/LowPolyMetalRack/Prefabs/MetalRack_Pillar_Half.prefab
-  artifactKey: Guid(448480d381d0acc4bb33c2b37e0c1190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyMetalRack/Prefabs/MetalRack_Pillar_Half.prefab using Guid(448480d381d0acc4bb33c2b37e0c1190) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
- -> (artifact id: '7e836a07e4123e807788972bdd9b7747') in 0.013980 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/LowPolyMetalRack/Prefabs/MetalRack_Shelf_Board_Half.prefab
-  artifactKey: Guid(7c5ea4eb1941980429abac9d717329c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyMetalRack/Prefabs/MetalRack_Shelf_Board_Half.prefab using Guid(7c5ea4eb1941980429abac9d717329c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
- -> (artifact id: '4748e87a299fb905b3929eb77cd06da2') in 0.012049 seconds
+ -> (artifact id: 'cf2a41207c3b648418f6e9677a550b2b') in 0.017656 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/LowPolyMetalRack/Prefabs/MetalRack_Shelf_Wire_Half.prefab
-  artifactKey: Guid(594456c76fa0ba3488ee0de0cefa2153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyMetalRack/Prefabs/MetalRack_Shelf_Wire_Half.prefab using Guid(594456c76fa0ba3488ee0de0cefa2153) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
- -> (artifact id: 'a4b8ee75c49dec41a5a88437289832e0') in 0.014578 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/LowPolyMetalRack/Prefabs/MetalRack_Shelf_Wire.prefab
-  artifactKey: Guid(9c6784651c8d1964eb6ca5f37c68d7e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyMetalRack/Prefabs/MetalRack_Shelf_Wire.prefab using Guid(9c6784651c8d1964eb6ca5f37c68d7e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
- -> (artifact id: '3fbf85ad30f366fb886b545ffe3b9c26') in 0.012852 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/LowPolyMetalRack/Prefabs/WireShelf D.prefab
-  artifactKey: Guid(de4ad9755eec954419b90cef170ea41f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyMetalRack/Prefabs/WireShelf D.prefab using Guid(de4ad9755eec954419b90cef170ea41f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
- -> (artifact id: '3f7d90b58405b04f166ecd30a0f25aba') in 0.011404 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 61
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/LowPolyMetalRack/Prefabs/WireShelf B.prefab
-  artifactKey: Guid(3aa5281aec313c043b3e82745af1ae17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyMetalRack/Prefabs/WireShelf B.prefab using Guid(3aa5281aec313c043b3e82745af1ae17) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
- -> (artifact id: '7edcfa1d990e09df402890e93b6a1e20') in 0.015083 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 73
+Number of asset objects unloaded after import = 58
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

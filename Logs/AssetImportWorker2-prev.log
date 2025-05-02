@@ -15,7 +15,7 @@ C:/Users/rdlan/OneDrive/Unity/Zombe game
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-49437
+50309
 Successfully changed project path to: C:/Users/rdlan/OneDrive/Unity/Zombe game
 C:/Users/rdlan/OneDrive/Unity/Zombe game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,14 +49,14 @@ C:/Users/rdlan/OneDrive/Unity/Zombe game
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [29444]  Target information:
+Player connection [17856]  Target information:
 
-Player connection [29444]  * "[IP] 11.41.255.237 [Port] 0 [Flags] 2 [Guid] 1486409223 [EditorId] 1486409223 [Version] 1048832 [Id] WindowsEditor(7,DaPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [17856]  * "[IP] 11.41.255.242 [Port] 0 [Flags] 2 [Guid] 1727217115 [EditorId] 1727217115 [Version] 1048832 [Id] WindowsEditor(7,DaPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [29444] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [29444] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [17856] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [17856] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
-Refreshing native plugins compatible for Editor in 6.70 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 5.81 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.38f1 (c5d5a7410213)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.3.38f1/Editor/Data/Resources/UnitySubsystems
@@ -72,44 +72,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2022.3.38f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2022.3.38f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 2022.3.38f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56532
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56488
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2022.3.38f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003565 seconds.
-- Loaded All Assemblies, in  0.210 seconds
+Registered in 0.003203 seconds.
+- Loaded All Assemblies, in  0.197 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.155 seconds
-Domain Reload Profiling: 364ms
-	BeginReloadAssembly (65ms)
+- Finished resetting the current domain, in  0.152 seconds
+Domain Reload Profiling: 349ms
+	BeginReloadAssembly (61ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (19ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (35ms)
-	LoadAllAssembliesAndSetupDomain (84ms)
-		LoadAssemblies (63ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (76ms)
+		LoadAssemblies (59ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (83ms)
-			TypeCache.Refresh (82ms)
-				TypeCache.ScanAssembly (71ms)
+		AnalyzeDomain (75ms)
+			TypeCache.Refresh (75ms)
+				TypeCache.ScanAssembly (67ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (155ms)
+	FinalizeReload (152ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (121ms)
+		SetupLoadedEditorAssemblies (119ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (5ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (84ms)
-			ProcessInitializeOnLoadMethodAttributes (27ms)
+			ProcessInitializeOnLoadAttributes (82ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,51 +117,51 @@ Domain Reload Profiling: 364ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.429 seconds
-Refreshing native plugins compatible for Editor in 2.91 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.387 seconds
+Refreshing native plugins compatible for Editor in 2.70 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.470 seconds
-Domain Reload Profiling: 897ms
-	BeginReloadAssembly (88ms)
+- Finished resetting the current domain, in  0.387 seconds
+Domain Reload Profiling: 773ms
+	BeginReloadAssembly (91ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (13ms)
-	RebuildCommonClasses (24ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (19ms)
 	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (26ms)
-	LoadAllAssembliesAndSetupDomain (283ms)
-		LoadAssemblies (208ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (244ms)
+		LoadAssemblies (186ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (127ms)
-			TypeCache.Refresh (110ms)
-				TypeCache.ScanAssembly (100ms)
-			ScanForSourceGeneratedMonoScriptInfo (12ms)
+		AnalyzeDomain (110ms)
+			TypeCache.Refresh (95ms)
+				TypeCache.ScanAssembly (85ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
 			ResolveRequiredComponents (3ms)
-	FinalizeReload (471ms)
+	FinalizeReload (388ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (369ms)
+		SetupLoadedEditorAssemblies (298ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
+			InitializePlatformSupportModulesInManaged (3ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (43ms)
-			ProcessInitializeOnLoadAttributes (302ms)
+			BeforeProcessingInitializeOnLoad (39ms)
+			ProcessInitializeOnLoadAttributes (237ms)
 			ProcessInitializeOnLoadMethodAttributes (12ms)
 			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 5.40 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 4.70 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4116 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 49 unused Assets / (126.3 KB). Loaded Objects now: 4578.
+Unloading 49 unused Assets / (101.2 KB). Loaded Objects now: 4578.
 Memory consumption went from 151.8 MB to 151.7 MB.
-Total: 3.385600 ms (FindLiveObjects: 0.230200 ms CreateObjectMapping: 0.113800 ms MarkObjects: 2.872700 ms  DeleteObjects: 0.167600 ms)
+Total: 3.153900 ms (FindLiveObjects: 0.232500 ms CreateObjectMapping: 0.101900 ms MarkObjects: 2.647300 ms  DeleteObjects: 0.171100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -177,3 +177,240 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 952.644856 seconds.
+  path: Assets/Misc/PolygonalMind/LowPolyOffice/Characters/mesh_office_f_black01.fbx
+  artifactKey: Guid(d18df5b376f9b1c41ac18ad439491ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Misc/PolygonalMind/LowPolyOffice/Characters/mesh_office_f_black01.fbx using Guid(d18df5b376f9b1c41ac18ad439491ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'cfbcf460ca7c21a2b1080caeda9183d4') in 0.094711 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 58
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Misc/PolygonalMind/LowPolyOffice/Characters/mesh_office_f_annoying01.fbx
+  artifactKey: Guid(438ef91a5f9e61c45941464eebc462dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Misc/PolygonalMind/LowPolyOffice/Characters/mesh_office_f_annoying01.fbx using Guid(438ef91a5f9e61c45941464eebc462dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '2852843a80825167702cb111917510c5') in 0.019338 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 58
+========================================================================
+Received Import Request.
+  Time since last request: 29.404851 seconds.
+  path: Assets/Character/Mini Legion Rock Golem PBR HP Polyart/Animations/FreeGolem.controller
+  artifactKey: Guid(64e2ef14a02f69a4b94edbee54ca296a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Mini Legion Rock Golem PBR HP Polyart/Animations/FreeGolem.controller using Guid(64e2ef14a02f69a4b94edbee54ca296a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '31c6845293162e485fee2e6125f624a6') in 0.051389 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 394.740415 seconds.
+  path: Assets/Misc/PolygonalMind/LowPolyOffice/Characters/mesh_office_f_hipster01.fbx
+  artifactKey: Guid(de452870b33d3a647b54b8b1fb10ff41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Misc/PolygonalMind/LowPolyOffice/Characters/mesh_office_f_hipster01.fbx using Guid(de452870b33d3a647b54b8b1fb10ff41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '9417c0ed2e7f0fd557f25199436a9a9c') in 0.028259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 58
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Misc/PolygonalMind/LowPolyOffice/Characters/mesh_office_f_it01.fbx
+  artifactKey: Guid(7743b022045d0174d84e071efb0fae67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Misc/PolygonalMind/LowPolyOffice/Characters/mesh_office_f_it01.fbx using Guid(7743b022045d0174d84e071efb0fae67) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '5e37772a90105c34ca97416382c0f6b6') in 0.064253 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 58
+========================================================================
+Received Import Request.
+  Time since last request: 0.025537 seconds.
+  path: Assets/Misc/PolygonalMind/LowPolyOffice/Characters/mesh_office_f_recepcionist01.fbx
+  artifactKey: Guid(0f623bf014001584995ab5372e19323d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Misc/PolygonalMind/LowPolyOffice/Characters/mesh_office_f_recepcionist01.fbx using Guid(0f623bf014001584995ab5372e19323d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '9573aa3525120364f0ad9ed4977a5102') in 0.027496 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 58
+========================================================================
+Received Import Request.
+  Time since last request: 0.037152 seconds.
+  path: Assets/Misc/PolygonalMind/LowPolyOffice/Characters/mesh_office_f_slacker01.fbx
+  artifactKey: Guid(4d8055b6d6938c34c8737df771fae55c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Misc/PolygonalMind/LowPolyOffice/Characters/mesh_office_f_slacker01.fbx using Guid(4d8055b6d6938c34c8737df771fae55c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '92e1c1e4e537fa18accee18a1a878906') in 0.027893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 58
+========================================================================
+Received Import Request.
+  Time since last request: 0.557605 seconds.
+  path: Assets/Misc/PolygonalMind/LowPolyOffice/Characters/mesh_office_m_accountant01.fbx
+  artifactKey: Guid(019e63eb398053c4ab097c7d982339d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Misc/PolygonalMind/LowPolyOffice/Characters/mesh_office_m_accountant01.fbx using Guid(019e63eb398053c4ab097c7d982339d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'd7e944924d686a176fce70de80249c92') in 0.022160 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 58
+========================================================================
+Received Import Request.
+  Time since last request: 0.023634 seconds.
+  path: Assets/Misc/PolygonalMind/LowPolyOffice/Characters/mesh_office_m_boss01.fbx
+  artifactKey: Guid(185bfac8d64a19645a089256063d89ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Misc/PolygonalMind/LowPolyOffice/Characters/mesh_office_m_boss01.fbx using Guid(185bfac8d64a19645a089256063d89ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'bf51c3e458a1980c904653a8d3b41b8e') in 0.018962 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 58
+========================================================================
+Received Import Request.
+  Time since last request: 0.035032 seconds.
+  path: Assets/Misc/PolygonalMind/LowPolyOffice/Characters/mesh_office_m_cleaning01.fbx
+  artifactKey: Guid(a8a9111dda17c03468f31a452d4b1727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Misc/PolygonalMind/LowPolyOffice/Characters/mesh_office_m_cleaning01.fbx using Guid(a8a9111dda17c03468f31a452d4b1727) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'fa5eedf43f32c4406d4610d48cf16198') in 0.017731 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 58
+========================================================================
+Received Import Request.
+  Time since last request: 0.046959 seconds.
+  path: Assets/Misc/PolygonalMind/LowPolyOffice/Characters/mesh_office_m_intern01.fbx
+  artifactKey: Guid(4a57d19eb4452ff498c17131cefb7882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Misc/PolygonalMind/LowPolyOffice/Characters/mesh_office_m_intern01.fbx using Guid(4a57d19eb4452ff498c17131cefb7882) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'b0970f198482f805f9f66e5f3dc7f945') in 0.018021 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 58
+========================================================================
+Received Import Request.
+  Time since last request: 0.014378 seconds.
+  path: Assets/Misc/PolygonalMind/LowPolyOffice/Characters/mesh_office_m_marketing01.fbx
+  artifactKey: Guid(b538e4dd12efa8a40ab7dd3a66d39dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Misc/PolygonalMind/LowPolyOffice/Characters/mesh_office_m_marketing01.fbx using Guid(b538e4dd12efa8a40ab7dd3a66d39dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '372ad9817dd064ad5ac8c1e1a33ac510') in 0.018233 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 58
+========================================================================
+Received Import Request.
+  Time since last request: 2.148804 seconds.
+  path: Assets/Misc/PolygonalMind/LowPolyOffice/Scenes/Demo Scene/Sitting (1).fbx
+  artifactKey: Guid(e15dbac1b30bbe04184c911e7fd6e70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Misc/PolygonalMind/LowPolyOffice/Scenes/Demo Scene/Sitting (1).fbx using Guid(e15dbac1b30bbe04184c911e7fd6e70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'be2429c93c388713c5498102867c1ad0') in 0.028969 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 59
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Misc/PolygonalMind/LowPolyOffice/Scenes/Demo Scene/Sitting Disbelief.fbx
+  artifactKey: Guid(b5c2fad6794b85c418391a4ee59c7578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Misc/PolygonalMind/LowPolyOffice/Scenes/Demo Scene/Sitting Disbelief.fbx using Guid(b5c2fad6794b85c418391a4ee59c7578) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'f131b0a67f6dd36090709de7cdf11b43') in 0.029700 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 59
+========================================================================
+Received Import Request.
+  Time since last request: 295.740288 seconds.
+  path: Assets/Character/Zombie/Animations/(P) Characters_Zombie_Pacient_04.controller
+  artifactKey: Guid(af99c7cb2e351504cb6c574f71d0cf1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Zombie/Animations/(P) Characters_Zombie_Pacient_04.controller using Guid(af99c7cb2e351504cb6c574f71d0cf1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'c55daaa3a4343aeb2a107664ff722094') in 0.006079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 5.404956 seconds.
+  path: Assets/Character/Zombie/Animations/(P) Characters_Zombie_Pacient_04 (1).controller
+  artifactKey: Guid(9bb5edf6f83ffdb4aac3879bfb79bb42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Zombie/Animations/(P) Characters_Zombie_Pacient_04 (1).controller using Guid(9bb5edf6f83ffdb4aac3879bfb79bb42) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '7260605ad840fd4d0e011aa283d3aede') in 0.005686 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 1.693210 seconds.
+  path: Assets/Character/Zombie/Animations/(P) Characters_Zombie_Pacient_04 (2).controller
+  artifactKey: Guid(79d0c36d215ec304dbc27300f372ce06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Zombie/Animations/(P) Characters_Zombie_Pacient_04 (2).controller using Guid(79d0c36d215ec304dbc27300f372ce06) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'e6db60ed261bf805a27ed76996df4ef7') in 0.010236 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 1.303998 seconds.
+  path: Assets/Character/Zombie/Animations/(P) Characters_Zombie_SuitMan_1.controller
+  artifactKey: Guid(0690294a623ab034a90d4d79bc8a2a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Zombie/Animations/(P) Characters_Zombie_SuitMan_1.controller using Guid(0690294a623ab034a90d4d79bc8a2a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'a927bd86eda3cc4acbafb5341e8f9825') in 0.007963 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 2.974948 seconds.
+  path: Assets/Character/Zombie/Animations/Characters_Zombie_Pacient_04 1.controller
+  artifactKey: Guid(1a63a5b2d7e2cc648bcdabebc1d0635c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Zombie/Animations/Characters_Zombie_Pacient_04 1.controller using Guid(1a63a5b2d7e2cc648bcdabebc1d0635c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '222e01a50b540405842e90b4225a5d71') in 0.005870 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 1.067927 seconds.
+  path: Assets/Character/Zombie/Animations/Characters_Zombie_SuitMan_1.controller
+  artifactKey: Guid(fcadde542bd574349921d277105c93af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Zombie/Animations/Characters_Zombie_SuitMan_1.controller using Guid(fcadde542bd574349921d277105c93af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '03bcebb5e045966781d252dcaa188677') in 0.009263 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.585396 seconds.
+  path: Assets/Character/Zombie/Animations/Characters_Zombie_SuitMan_1 1.controller
+  artifactKey: Guid(c5563993f48229443a19e606fd5df15c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Zombie/Animations/Characters_Zombie_SuitMan_1 1.controller using Guid(c5563993f48229443a19e606fd5df15c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '29249ff734ae640dd6a8b24356321482') in 0.004802 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 162.314380 seconds.
+  path: Assets/Character/Zombie/Animations/Zombies.controller
+  artifactKey: Guid(aca52cd4fff38b94f9c653180db6ab87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Zombie/Animations/Zombies.controller using Guid(aca52cd4fff38b94f9c653180db6ab87) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '092982d0fcf30f35d31c40ac3f6fefc5') in 0.000755 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
